@@ -24,13 +24,14 @@ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
 cd YOUR-REPOSITORY
 ```
 # Create and activate a virtual environment:
-
+For Linux/macOS
 ```bash
 python3 -m venv venv
-source venv/bin/activate    # macOS/Linux
+source venv/bin/activate 
 ```
+For Windows Powershell
 ```bash
-.\venv\Scripts\Activate.ps1  # Windows PowerShell
+.\venv\Scripts\Activate.ps1
 ```
 
 # Install dependencies:
