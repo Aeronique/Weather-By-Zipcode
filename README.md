@@ -19,9 +19,10 @@ A free API key from OpenWeatherMap (https://openweathermap.org/)
 
 Clone the repository (replace <username> and <repo> with the correct values):
 
+```bash
 git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
 cd YOUR-REPOSITORY
-
+```
 # Create and activate a virtual environment:
 
 python3 -m venv venv
