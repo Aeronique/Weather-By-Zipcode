@@ -28,6 +28,8 @@ cd YOUR-REPOSITORY
 ```bash
 python3 -m venv venv
 source venv/bin/activate    # macOS/Linux
+```
+```bash
 .\venv\Scripts\Activate.ps1  # Windows PowerShell
 ```
 
