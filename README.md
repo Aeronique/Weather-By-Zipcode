@@ -1,7 +1,7 @@
 # Weather-By-Zipcode
 A super simple Python script to fetch current weather information by U.S. ZIP code.
 
-Features
+# Features
 
 Fetches current weather conditions (temperature, humidity, description) for a ZIP code.
 
@@ -9,30 +9,30 @@ Gracefully handles API key activation wait times.
 
 Minimal dependencies: requests and python-dotenv.
 
-Prerequisites
+# Prerequisites
 
 Python 3.8 or higher
 
 A free API key from OpenWeatherMap
 
-Installation
+# Installation
 
 Clone the repository (replace <username> and <repo> with the correct values):
 
 git clone https://github.com/<username>/<repo>.git
 cd <repo>
 
-Create and activate a virtual environment:
+# Create and activate a virtual environment:
 
 python3 -m venv venv
 source venv/bin/activate    # macOS/Linux
 # .\venv\Scripts\Activate.ps1  # Windows PowerShell
 
-Install dependencies:
+# Install dependencies:
 
 pip install -r requirements.txt
 
-Configure your API key:
+# Configure your API key:
 
 Copy .env.example to .env:
 
@@ -42,11 +42,11 @@ Edit .env and replace YOUR_API_KEY with your actual key:
 
 OPENWEATHER_API_KEY=YOUR_API_KEY
 
-Usage
+# Usage
 
 Run the script:
 
-python weather_by_zip.py
+python3 weather_by_zip.py
 
 When prompted, enter a U.S. ZIP code (e.g., 10001).
 
@@ -59,7 +59,7 @@ Current weather in Beverly Hills:
   Temperature: 75.2°F (feels like 74.5°F)
   Humidity: 45%
 
-Troubleshooting
+# Troubleshooting
 
 401 Unauthorized: If you see a message about the API key not being active, wait a few hours for OpenWeatherMap to propagate the key.
 
