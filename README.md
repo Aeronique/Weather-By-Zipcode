@@ -13,7 +13,7 @@ Minimal dependencies: requests and python-dotenv.
 
 Python 3.8 or higher
 
-A free API key from OpenWeatherMap
+A free API key from OpenWeatherMap (https://openweathermap.org/)
 
 # Installation
 
