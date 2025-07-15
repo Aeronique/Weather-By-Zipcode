@@ -5,9 +5,9 @@ A super simple Python script to fetch current weather information by U.S. ZIP co
 
 Fetches current weather conditions (temperature, humidity, description) for a ZIP code.
 
-Gracefully handles API key activation wait times.
-
 Minimal dependencies: requests and python-dotenv.
+
+Notifies user if API key is not yet activated.
 
 # Prerequisites
 
@@ -68,6 +68,6 @@ Current weather in Beverly Hills:
 ```
 # Troubleshooting
 
-401 Unauthorized: If you see a message about the API key not being active, wait a few hours for OpenWeatherMap to propagate the key.
+401 Unauthorized: If you see a message about the API key not being active, wait a few minutes for OpenWeatherMap to propagate the key.
 
 Environment variable issue: Ensure .env is in the project root and contains the correct key. Activate your virtual environment before running the script.
